@@ -1,8 +1,19 @@
 # llm_dynamic_load_unload
-This repo contains codes for dynamic load and unload llms on localized device
+This repo contains codes for dynamic load and unload llms on localized edge device
 
+This script provides a Flask-based system to manage LLM model tasks by continous load and unloading on localized edge device using Ollama and Raspberry Pi 4B, focusing on efficient model usage and logging. Below is a breakdown of its main components:
 
-This script provides a Flask-based system to manage AI model tasks, focusing on efficient model usage and logging. Below is a breakdown of its main components:
+Install Ollama https://github.com/ollama/ollama
+
+Alyways perform the code under virtual environment.
+
+Then pip install -r requirements.txt
+
+Then run llm_basic_scheduling_switch_7.py in a terminal
+
+Then run test.py on other terminal
+
+Check the CSV logs.
 
 ### **Key Features**
 1. **Model Management**:
