@@ -5,6 +5,8 @@ This script provides a Flask-based system to manage LLM model tasks by continous
 
 Install Ollama https://github.com/ollama/ollama
 
+ollama run <model_name>
+
 Alyways perform the code under virtual environment.
 
 Then pip install -r requirements.txt
