@@ -2,8 +2,6 @@
 This repo contains codes for dynamic load and unload llms on localized device
 
 
-
-
 This script provides a Flask-based system to manage AI model tasks, focusing on efficient model usage and logging. Below is a breakdown of its main components:
 
 ### **Key Features**
@@ -63,9 +61,9 @@ This script provides a Flask-based system to manage AI model tasks, focusing on 
 ### **Example Use Case**
 1. **Add a Task**:
    A client sends a POST request to `/perform_task` with:
-   ```pyton
+   
 curl -X POST http://localhost:5000/perform_task -H "Content-Type: application/json"   -d '{"task_type": "arithmetic", "model_name": "qwen2.5:0.5b-instruct", "prompt": "What is 2+2?"}'
-   ```
+   
 2. **Process Task**:
    - The task is added to the queue.
    - The system ensures the model is loaded, executes the task, and logs the result.
